@@ -16,9 +16,10 @@ import java.util.TreeSet;
 public class Assignment3_MissingNum {
 
 	public static void main(String[] args) {
-
+		//1. Declare the array
 		Integer[] myNum = {4,6,7,2,3,1,9,10,8,8,6,2};
-		
+
+		//Assign all the value in TreeSet to get in ascending order
 		Set<Integer> mySet = new TreeSet<Integer>();
 		mySet.addAll(Arrays.asList(myNum));
 		
